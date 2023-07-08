@@ -1,0 +1,17 @@
+.blog-details-container {
+  margin: 40px;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+.blog-details-image {
+  width: 100%;
+  max-height: 30vw;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.content {
+  color: #2f4f4f;
+}
