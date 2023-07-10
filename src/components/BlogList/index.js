@@ -29,9 +29,11 @@ class BlogList extends Component {
   render() {
     const {blogData, loading} = this.state
     return (
-      <div data-testid="loader">
+      <div>
         {loading ? (
-          <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+          <div data-testid="loader">
+            <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+          </div>
         ) : (
           blogData.map(eachItem => (
             <BlogItem blogInfo={eachItem} key={eachItem.id} />

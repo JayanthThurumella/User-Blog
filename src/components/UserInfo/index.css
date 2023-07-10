@@ -6,8 +6,9 @@
 
 .profile-img {
   background-color: #ffffff;
-  width: 100px;
+  width: 130px;
   margin-top: 31px;
+  border-radius: 10px;
 }
 
 .user-name {
